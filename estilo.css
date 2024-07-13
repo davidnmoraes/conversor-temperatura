@@ -1,0 +1,51 @@
+body {
+    background: rgb(0, 0, 0);
+    font: normal 15pt Tahoma;
+    font-size: medium;
+}
+
+header {
+    color: rgb(250, 250, 250);
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 130px;
+    padding: 50px;
+    width: 200px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.574);  
+}
+
+.select {
+    font-size: large;
+    background: rgb(30, 30, 30);
+    color: white;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+.display {
+    width: 193px;
+    height: 30px;
+    background: black;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.tela {
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+input#botao {
+    background: rgb(255, 255, 255);
+    color: rgb(38, 38, 38);
+    height: 30px;
+    width: 200px;
+    font-size: larger;
+    font-weight: bold;
+}

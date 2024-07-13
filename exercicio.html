@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Conversor de Temperatura</h1>
+    </header>
+    <section class="tela">
+        <p>
+            <select name="refe" class="select" id="refe">
+                <option value="C">Celsius (C)</option>
+                <option value="F">Fahrenheit (F)</option>
+                <option value="K">Kelvin (K)</option>
+                <option value="R">Rankine (R)</option>
+            </select><br>
+            <input type="number" class="display" name="num1" id="num1" onfocus="limpar('num1')">
+        </p>
+        <p>
+            <select name="resul" class="select" id="result">
+                <option value="C2">Celsius (C)</option>
+                <option value="F2">Fahrenheit (F)</option>
+                <option value="K2">Kelvin (K)</option>
+                <option value="R2">Rankine (R)</option>
+            </select><br>
+            <input type="number" class="display" name="num2" id="num2" onfocus="limpar('num2')">
+        </p>
+        <input type="button" id="botao" value="Converter" onclick="converter()">
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
